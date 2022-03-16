@@ -25,8 +25,31 @@ class MainScreen extends StatelessWidget {
                 ),
               ],
             ),
+            const SizedBox(
+              height: 20.0,
+            ),
             Row(
-              children: [],
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                const Text(
+                    'Accounts',
+                  style: TextStyle(
+                    fontSize: 20.0
+                  ),
+                ),
+                Row(
+                  children: const [
+                    Text(
+                        'ADD NEW',
+                      style: TextStyle(
+                        color: Color(0xFFA29BFE),
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                    Icon(Icons.add),
+                  ],
+                ),
+              ],
             ),
           ],
         ),
