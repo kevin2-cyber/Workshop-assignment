@@ -15,7 +15,7 @@ class MainScreen extends StatelessWidget {
     const kcard4 = Color(0xFFFF9B1A);
     return Scaffold(
       body: Padding(
-        padding: const EdgeInsets.symmetric(vertical: 20.0, horizontal: 10.0),
+        padding: const EdgeInsets.symmetric(vertical: 30.0, horizontal: 15.0),
         child: Column(
           children: [
             Row(
