@@ -6,10 +6,12 @@ class MainScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    const card1 = Color(0xFFBC5EA4);
-    const card2 = Color(0xFF16C6FC);
-    const card3 = Color(0xFFCABAEA);
-    const card4 = Color(0xFFFF9B1A);
+    const kuserColor = Color(0xFFA29BFE);
+    const karrowColor = Color(0xFFBEC2C4);
+    const kcard1 = Color(0xFFBC5EA4);
+    const kcard2 = Color(0xFF16C6FC);
+    const kcard3 = Color(0xFFCABAEA);
+    const kcard4 = Color(0xFFFF9B1A);
     return Scaffold(
       body: Padding(
         padding: const EdgeInsets.symmetric(vertical: 20.0, horizontal: 10.0),
@@ -21,12 +23,12 @@ class MainScreen extends StatelessWidget {
                 Icon(
                   Icons.arrow_back_sharp,
                   size: 40.0,
-                  color: Color(0xFFBEC2C4),
+                  color: karrowColor,
                 ),
                 Icon(
                   Icons.account_circle,
                   size: 40.0,
-                  color: Color(0xFFA29BFE),
+                  color: kuserColor,
                 ),
               ],
             ),
@@ -47,7 +49,7 @@ class MainScreen extends StatelessWidget {
                     Text(
                         'ADD NEW',
                       style: TextStyle(
-                        color: Color(0xFFA29BFE),
+                        color: kuserColor,
                         fontWeight: FontWeight.bold,
                       ),
                     ),
@@ -63,7 +65,7 @@ class MainScreen extends StatelessWidget {
               child: Container(
                 // height: 200.0,
                 decoration: BoxDecoration(
-                  color: card1,
+                  color: kcard1,
                   borderRadius: BorderRadius.circular(20.0),
                 ),
               ),
@@ -75,7 +77,7 @@ class MainScreen extends StatelessWidget {
               child: Container(
                 // height: 200.0,
                 decoration: BoxDecoration(
-                  color: card2,
+                  color: kcard2,
                   borderRadius: BorderRadius.circular(20.0),
                 ),
               ),
@@ -87,7 +89,7 @@ class MainScreen extends StatelessWidget {
               child: Container(
                 // height: 200.0,
                 decoration: BoxDecoration(
-                  color: card3,
+                  color: kcard3,
                   borderRadius: BorderRadius.circular(20.0),
                 ),
               ),
@@ -99,7 +101,7 @@ class MainScreen extends StatelessWidget {
               child: Container(
                 // height: 200.0,
                 decoration: BoxDecoration(
-                  color: card4,
+                  color: kcard4,
                   borderRadius: BorderRadius.circular(20.0),
                 ),
               ),
