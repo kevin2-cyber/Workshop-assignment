@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:frontend_tryout/details_screen.dart';
 
 class MainScreen extends StatelessWidget {
   const MainScreen({Key? key}) : super(key: key);
@@ -19,16 +20,23 @@ class MainScreen extends StatelessWidget {
           children: [
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: const [
-                Icon(
+              children:  [
+                const Icon(
                   Icons.arrow_back_sharp,
                   size: 40.0,
                   color: karrowColor,
                 ),
-                Icon(
-                  Icons.account_circle,
-                  size: 40.0,
-                  color: kuserColor,
+                GestureDetector(
+                  onTap: (){
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context)=> const DetailsScreen()));
+                  },
+                  child: const Icon(
+                    Icons.account_circle,
+                    size: 40.0,
+                    color: kuserColor,
+                  ),
                 ),
               ],
             ),
