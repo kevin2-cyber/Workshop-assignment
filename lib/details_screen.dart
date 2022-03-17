@@ -6,7 +6,10 @@ class DetailsScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Container(),
+      body: Padding(
+          padding: const EdgeInsets.symmetric(vertical: 20.0, horizontal: 10),
+        child: Column(),
+      ),
     );
   }
 }
