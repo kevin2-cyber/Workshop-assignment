@@ -8,6 +8,7 @@ class MainScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    const kbgColor = Color(0xFFF3F3F4);
     const kuserColor = Color(0xFFA29BFE);
     const karrowColor = Color(0xFFBEC2C4);
     const kcard1 = Color(0xFFBC5EA4);
@@ -99,6 +100,22 @@ class MainScreen extends StatelessWidget {
                                 fontSize: 10.0,
                                 fontWeight: FontWeight.w500,
                               ),
+                            ),
+                          ),
+                        ),
+                      ),
+                    ),
+                    Positioned(
+                      top: 70.0,
+                      bottom: 2.0,
+                      child: Padding(
+                        padding: const EdgeInsets.all(14.0),
+                        child: Text(
+                            'Upgrade your account',
+                          style: GoogleFonts.poppins(
+                            textStyle: const TextStyle(
+                              fontSize: 15.0,
+                              color: kbgColor,
                             ),
                           ),
                         ),
