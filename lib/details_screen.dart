@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class DetailsScreen extends StatelessWidget {
   const DetailsScreen({Key? key}) : super(key: key);
@@ -14,7 +15,20 @@ class DetailsScreen extends StatelessWidget {
         ),
           child: Column(
             children: [
-              Text('Main Wallet'),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Text(
+                      'Main Wallet',
+                    style: GoogleFonts.poppins(
+                      fontSize: 20.0,
+                    ),
+                  ),
+                  const CircleAvatar(
+                    backgroundImage: AssetImage('assets/images/angela.jpeg'),
+                  ),
+                ],
+              ),
             ],
           ),
       ),
