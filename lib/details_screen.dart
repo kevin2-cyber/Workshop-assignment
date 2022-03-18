@@ -7,6 +7,7 @@ class DetailsScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     const bgColor = Color(0xFFF3F3F4);
+    const expandedColor = Color(0xFF18C0FC);
     return Scaffold(
       body: Container(
         padding: const EdgeInsets.symmetric(vertical: 30.0, horizontal: 15.0),
@@ -28,6 +29,16 @@ class DetailsScreen extends StatelessWidget {
                     backgroundImage: AssetImage('assets/images/angela.jpeg'),
                   ),
                 ],
+              ),
+              const SizedBox(
+                height: 20.0,
+              ),
+              Expanded(
+                child: Container(
+                  decoration: const BoxDecoration(
+                    color: expandedColor,
+                  ),
+                ),
               ),
             ],
           ),

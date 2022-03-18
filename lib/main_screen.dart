@@ -81,6 +81,19 @@ class MainScreen extends StatelessWidget {
                   color: kcard1,
                   borderRadius: BorderRadius.circular(20.0),
                 ),
+                child: Stack(
+                  children: [
+                    Positioned(
+                      child: Padding(
+                        padding: const EdgeInsets.all(16.0),
+                        child: MaterialButton(
+                          color: Colors.white,
+                          onPressed: () {},
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
               ),
             ),
             const SizedBox(
