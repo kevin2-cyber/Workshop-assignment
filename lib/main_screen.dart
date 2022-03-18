@@ -147,6 +147,24 @@ class MainScreen extends StatelessWidget {
                   color: kcard2,
                   borderRadius: BorderRadius.circular(20.0),
                 ),
+                child: Stack(
+                  children: [
+                    Positioned(
+                      top: 20.0,
+                      left: 30.0,
+                      child: Padding(
+                        padding: const EdgeInsets.all(12.0),
+                        child: Text(
+                            'Main Wallet',
+                          style: GoogleFonts.poppins(
+                            fontSize: 10.0,
+                            color: kbgColor,
+                          ),
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
               ),
             ),
             const SizedBox(
