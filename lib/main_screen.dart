@@ -158,6 +158,7 @@ class MainScreen extends StatelessWidget {
                             'Main Wallet',
                           style: GoogleFonts.poppins(
                             fontSize: 10.0,
+                            fontWeight: FontWeight.w300,
                             color: kbgColor,
                           ),
                         ),
