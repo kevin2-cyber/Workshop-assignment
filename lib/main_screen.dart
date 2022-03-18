@@ -84,11 +84,23 @@ class MainScreen extends StatelessWidget {
                 child: Stack(
                   children: [
                     Positioned(
+                      top: 13.0,
                       child: Padding(
                         padding: const EdgeInsets.all(16.0),
                         child: MaterialButton(
+                          shape: const StadiumBorder(),
                           color: Colors.white,
                           onPressed: () {},
+                          child: Text(
+                              'PRO',
+                            style: GoogleFonts.poppins(
+                              textStyle: const TextStyle(
+                                color: kuserColor,
+                                fontSize: 10.0,
+                                fontWeight: FontWeight.w500,
+                              ),
+                            ),
+                          ),
                         ),
                       ),
                     ),
