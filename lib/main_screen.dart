@@ -121,6 +121,18 @@ class MainScreen extends StatelessWidget {
                         ),
                       ),
                     ),
+                    const Positioned(
+                      top: 70.0,
+                      right: 10.0,
+                      child: Padding(
+                        padding: EdgeInsets.all(14.0),
+                        child: Icon(
+                            Icons.arrow_right_alt_outlined,
+                          color: kbgColor,
+                          size: 25.0,
+                        ),
+                      ),
+                    ),
                   ],
                 ),
               ),
