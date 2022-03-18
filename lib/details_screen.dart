@@ -13,7 +13,9 @@ class DetailsScreen extends StatelessWidget {
           color: bgColor,
         ),
           child: Column(
-            children: [],
+            children: [
+              Text('Main Wallet'),
+            ],
           ),
       ),
     );

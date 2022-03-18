@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:frontend_tryout/details_screen.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class MainScreen extends StatelessWidget {
   const MainScreen({Key? key}) : super(key: key);
@@ -46,22 +47,26 @@ class MainScreen extends StatelessWidget {
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                const Text(
+                Text(
                     'Accounts',
-                  style: TextStyle(
-                    fontSize: 20.0
+                  style: GoogleFonts.poppins(
+                    textStyle: const TextStyle(
+                        fontSize: 20.0
+                    ),
                   ),
                 ),
                 Row(
-                  children: const [
+                  children: [
                     Text(
                         'ADD NEW',
-                      style: TextStyle(
-                        color: kuserColor,
-                        fontWeight: FontWeight.bold,
+                      style: GoogleFonts.poppins(
+                        textStyle: const TextStyle(
+                          color: kuserColor,
+                          fontWeight: FontWeight.bold,
+                        ),
                       ),
                     ),
-                    Icon(Icons.add),
+                    const Icon(Icons.add),
                   ],
                 ),
               ],
