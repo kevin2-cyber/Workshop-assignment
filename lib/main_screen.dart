@@ -150,7 +150,14 @@ class MainScreen extends StatelessWidget {
                   color: kcard2,
                   borderRadius: BorderRadius.circular(20.0),
                 ),
-                child: ExpandedContent(kbgColor: kbgColor),
+                child: const ExpandedContent(
+                  text: 'Main Wallet',
+                  textColor: kbgColor,
+                  currency: '2049.95',
+                  bgColor: kcard1,
+                  percentage: '+32%',
+                  pcColor: Colors.black26,
+                ),
               ),
             ),
             const SizedBox(
@@ -163,54 +170,13 @@ class MainScreen extends StatelessWidget {
                   color: kcard3,
                   borderRadius: BorderRadius.circular(20.0),
                 ),
-                child: Stack(
-                  children: [
-                    Positioned(
-                      top: 20.0,
-                      left: 30.0,
-                      child: Padding(
-                        padding: const EdgeInsets.all(12.0),
-                        child: Text(
-                          'Savings Wallet',
-                          style: GoogleFonts.poppins(
-                            fontSize: 10.0,
-                            fontWeight: FontWeight.w300,
-                            color: kbgColor,
-                          ),
-                        ),
-                      ),
-                    ),
-                    Positioned(
-                      top: 35.0,
-                      left: 20.0,
-                      child: Padding(
-                        padding: const EdgeInsets.all(14.0),
-                        child: Text(
-                          '\$65.14',
-                          style: GoogleFonts.poppins(
-                            fontSize: 15.0,
-                            fontWeight: FontWeight.w500,
-                            color: kbgColor,
-                          ),
-                        ),
-                      ),
-                    ),
-                    Positioned(
-                      top: 35.0,
-                      right: 10.0,
-                      child: Padding(
-                        padding: const EdgeInsets.all(14.0),
-                        child: Text(
-                          '+ 0.4',
-                          style: GoogleFonts.poppins(
-                            fontSize: 15.0,
-                            fontWeight: FontWeight.w500,
-                            color: kcard3TextColor,
-                          ),
-                        ),
-                      ),
-                    ),
-                  ],
+                child:  const ExpandedContent(
+                  text: 'Main Wallet',
+                  textColor: kbgColor,
+                  currency: '2049.95',
+                  bgColor: kcard1,
+                  percentage: '+32%',
+                  pcColor: Colors.black26,
                 ),
               ),
             ),
@@ -224,54 +190,13 @@ class MainScreen extends StatelessWidget {
                   color: kcard4,
                   borderRadius: BorderRadius.circular(20.0),
                 ),
-                child: Stack(
-                  children: [
-                    Positioned(
-                      top: 20.0,
-                      left: 30.0,
-                      child: Padding(
-                        padding: const EdgeInsets.all(12.0),
-                        child: Text(
-                          'Summer Wallet',
-                          style: GoogleFonts.poppins(
-                            fontSize: 10.0,
-                            fontWeight: FontWeight.w300,
-                            color: kbgColor,
-                          ),
-                        ),
-                      ),
-                    ),
-                    Positioned(
-                      top: 35.0,
-                      left: 20.0,
-                      child: Padding(
-                        padding: const EdgeInsets.all(14.0),
-                        child: Text(
-                          '\$547.56',
-                          style: GoogleFonts.poppins(
-                            fontSize: 15.0,
-                            fontWeight: FontWeight.w500,
-                            color: kbgColor,
-                          ),
-                        ),
-                      ),
-                    ),
-                    Positioned(
-                      top: 35.0,
-                      right: 10.0,
-                      child: Padding(
-                        padding: const EdgeInsets.all(14.0),
-                        child: Text(
-                          '+2.6%',
-                          style: GoogleFonts.poppins(
-                            fontSize: 15.0,
-                            fontWeight: FontWeight.w500,
-                            color: kcard4TextColor,
-                          ),
-                        ),
-                      ),
-                    ),
-                  ],
+                child:  const ExpandedContent(
+                  text: 'Summer Wallet',
+                  textColor: kbgColor,
+                  currency: '547.56',
+                  bgColor: kbgColor,
+                  percentage: '+2.6%',
+                  pcColor: kcard4TextColor,
                 ),
               ),
             ),
