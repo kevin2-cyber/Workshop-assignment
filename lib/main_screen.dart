@@ -15,6 +15,8 @@ class MainScreen extends StatelessWidget {
     const kcard2 = Color(0xFF16C6FC);
     const kcard3 = Color(0xFFCABAEA);
     const kcard4 = Color(0xFFFF9B1A);
+    const kcard3TextColor = Color(0xFFD33135);
+    const kcard4TextColor = Color(0xFF725DD6);
     return Scaffold(
       body: Padding(
         padding: const EdgeInsets.symmetric(vertical: 30.0, horizontal: 15.0),
@@ -216,7 +218,7 @@ class MainScreen extends StatelessWidget {
                       child: Padding(
                         padding: const EdgeInsets.all(12.0),
                         child: Text(
-                          'Main Wallet',
+                          'Savings Wallet',
                           style: GoogleFonts.poppins(
                             fontSize: 10.0,
                             fontWeight: FontWeight.w300,
@@ -231,7 +233,7 @@ class MainScreen extends StatelessWidget {
                       child: Padding(
                         padding: const EdgeInsets.all(14.0),
                         child: Text(
-                          '\$2049.95',
+                          '\$65.14',
                           style: GoogleFonts.poppins(
                             fontSize: 15.0,
                             fontWeight: FontWeight.w500,
@@ -246,11 +248,11 @@ class MainScreen extends StatelessWidget {
                       child: Padding(
                         padding: const EdgeInsets.all(14.0),
                         child: Text(
-                          '+ 32%',
+                          '+ 0.4',
                           style: GoogleFonts.poppins(
                             fontSize: 15.0,
                             fontWeight: FontWeight.w500,
-                            color: Colors.black26,
+                            color: kcard3TextColor,
                           ),
                         ),
                       ),
@@ -277,7 +279,7 @@ class MainScreen extends StatelessWidget {
                       child: Padding(
                         padding: const EdgeInsets.all(12.0),
                         child: Text(
-                          'Main Wallet',
+                          'Summer Wallet',
                           style: GoogleFonts.poppins(
                             fontSize: 10.0,
                             fontWeight: FontWeight.w300,
@@ -292,7 +294,7 @@ class MainScreen extends StatelessWidget {
                       child: Padding(
                         padding: const EdgeInsets.all(14.0),
                         child: Text(
-                          '\$2049.95',
+                          '\$547.56',
                           style: GoogleFonts.poppins(
                             fontSize: 15.0,
                             fontWeight: FontWeight.w500,
@@ -307,11 +309,11 @@ class MainScreen extends StatelessWidget {
                       child: Padding(
                         padding: const EdgeInsets.all(14.0),
                         child: Text(
-                          '+ 32%',
+                          '+2.6%',
                           style: GoogleFonts.poppins(
                             fontSize: 15.0,
                             fontWeight: FontWeight.w500,
-                            color: Colors.black26,
+                            color: kcard4TextColor,
                           ),
                         ),
                       ),
