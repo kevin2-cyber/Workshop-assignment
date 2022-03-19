@@ -208,6 +208,55 @@ class MainScreen extends StatelessWidget {
                   color: kcard3,
                   borderRadius: BorderRadius.circular(20.0),
                 ),
+                child: Stack(
+                  children: [
+                    Positioned(
+                      top: 20.0,
+                      left: 30.0,
+                      child: Padding(
+                        padding: const EdgeInsets.all(12.0),
+                        child: Text(
+                          'Main Wallet',
+                          style: GoogleFonts.poppins(
+                            fontSize: 10.0,
+                            fontWeight: FontWeight.w300,
+                            color: kbgColor,
+                          ),
+                        ),
+                      ),
+                    ),
+                    Positioned(
+                      top: 35.0,
+                      left: 20.0,
+                      child: Padding(
+                        padding: const EdgeInsets.all(14.0),
+                        child: Text(
+                          '\$2049.95',
+                          style: GoogleFonts.poppins(
+                            fontSize: 15.0,
+                            fontWeight: FontWeight.w500,
+                            color: kbgColor,
+                          ),
+                        ),
+                      ),
+                    ),
+                    Positioned(
+                      top: 35.0,
+                      right: 10.0,
+                      child: Padding(
+                        padding: const EdgeInsets.all(14.0),
+                        child: Text(
+                          '+ 32%',
+                          style: GoogleFonts.poppins(
+                            fontSize: 15.0,
+                            fontWeight: FontWeight.w500,
+                            color: Colors.black26,
+                          ),
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
               ),
             ),
             const SizedBox(
@@ -219,6 +268,55 @@ class MainScreen extends StatelessWidget {
                 decoration: BoxDecoration(
                   color: kcard4,
                   borderRadius: BorderRadius.circular(20.0),
+                ),
+                child: Stack(
+                  children: [
+                    Positioned(
+                      top: 20.0,
+                      left: 30.0,
+                      child: Padding(
+                        padding: const EdgeInsets.all(12.0),
+                        child: Text(
+                          'Main Wallet',
+                          style: GoogleFonts.poppins(
+                            fontSize: 10.0,
+                            fontWeight: FontWeight.w300,
+                            color: kbgColor,
+                          ),
+                        ),
+                      ),
+                    ),
+                    Positioned(
+                      top: 35.0,
+                      left: 20.0,
+                      child: Padding(
+                        padding: const EdgeInsets.all(14.0),
+                        child: Text(
+                          '\$2049.95',
+                          style: GoogleFonts.poppins(
+                            fontSize: 15.0,
+                            fontWeight: FontWeight.w500,
+                            color: kbgColor,
+                          ),
+                        ),
+                      ),
+                    ),
+                    Positioned(
+                      top: 35.0,
+                      right: 10.0,
+                      child: Padding(
+                        padding: const EdgeInsets.all(14.0),
+                        child: Text(
+                          '+ 32%',
+                          style: GoogleFonts.poppins(
+                            fontSize: 15.0,
+                            fontWeight: FontWeight.w500,
+                            color: Colors.black26,
+                          ),
+                        ),
+                      ),
+                    ),
+                  ],
                 ),
               ),
             ),
