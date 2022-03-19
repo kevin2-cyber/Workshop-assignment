@@ -6,7 +6,6 @@ class ExpandedContent extends StatelessWidget {
     Key? key,
     required this.pcColor,
     required this.textColor,
-    required this.bgColor,
     required this.text,
     required this.currency,
     required this.percentage,
@@ -14,7 +13,6 @@ class ExpandedContent extends StatelessWidget {
 
   final Color pcColor;
   final Color textColor;
-  final Color bgColor;
   final String text;
   final String currency;
   final String percentage;
@@ -48,7 +46,7 @@ class ExpandedContent extends StatelessWidget {
               style: GoogleFonts.poppins(
                 fontSize: 15.0,
                 fontWeight: FontWeight.w500,
-                color: pcColor,
+                color: textColor,
               ),
             ),
           ),
