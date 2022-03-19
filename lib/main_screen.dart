@@ -164,6 +164,20 @@ class MainScreen extends StatelessWidget {
                         ),
                       ),
                     ),
+                    Positioned(
+                      top: 40.0,
+                      child: Padding(
+                        padding: const EdgeInsets.all(12.0),
+                        child: Text(
+                          '\$2049.95',
+                          style: GoogleFonts.poppins(
+                            fontSize: 16.0,
+                            fontWeight: FontWeight.w500,
+                            color: kbgColor,
+                          ),
+                        ),
+                      ),
+                    ),
                   ],
                 ),
               ),
