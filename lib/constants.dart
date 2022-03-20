@@ -9,3 +9,4 @@ const kcard3 = Color(0xFFCABAEA);
 const kcard4 = Color(0xFFFF9B1A);
 const kcard3TextColor = Color(0xFFD33135);
 const kcard4TextColor = Color(0xFF725DD6);
+const expandedColor = Color(0xFF18C0FC);
